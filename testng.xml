@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<test name="Smoke">
+		<parameter name="ubrowser" value="chrome"></parameter>
+		<parameter name="url" value="https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt"></parameter>
+		<parameter name="uname" value="DemoSalesManager"></parameter>
+		<parameter name="upassword" value="crmsfa"></parameter>
+
+		<classes>
+		
+		<class name="readFromFile.CreateLead" />
+		<class name="readFromFile.EditLead" />
+		<class name="readFromFile.DuplicateLead" />
+		<class name="readFromFile.DeleteLead" />
+			
+			
+
+		</classes>
+	</test> <!-- Smoke -->
+</suite> <!-- Suite -->

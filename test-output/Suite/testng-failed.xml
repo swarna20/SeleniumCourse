@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="classes">
+    <parameter name="upassword" value="crmsfa"/>
+    <parameter name="uname" value="DemoSalesManager"/>
+    <parameter name="ubrowser" value="chrome"/>
+    <parameter name="url" value="http://Leaftaps.com/opentaps"/>
+    <classes>
+      <class name="week3.day1.DuplicateLead_WdM">
+        <methods>
+          <include name="close"/>
+          <include name="DuplicateLead"/>
+          <include name="closeReport"/>
+          <include name="startReport"/>
+          <include name="login"/>
+          <include name="stopTest"/>
+        </methods>
+      </class> <!-- week3.day1.DuplicateLead_WdM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
